@@ -3,7 +3,7 @@ Improved version of core nginx [ngx_http_auth_request module](https://nginx.org/
 
 Originally only 2XX, 401 and 403 status codes are allowed to be returned from auth subrequest.
 
-**Codes 400, 412, 412, 444 are allowed.**
+**Codes 400, 412, 412, 444 are allowed in ngx_http_ihead_auth_request.**
 
 ## Directives
 ### ihead_auth_request (as original auth_request)
